@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Playfair+Display:ital,wght@1,700&family=Roboto:wght@100;300&display=swap');
+
+@mixin clickable {
+    color: #f5f5f5;
+    text-align: center;
+    padding: 20px 35px;
+    text-decoration: none;
+}
+
+$background_image_url: '../assets/moon.jpg';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Lato", serif;
+  font-size: 24px;
+  scroll-behavior: smooth;
+}
+
+p {
+    font-family: 'Roboto', serif;
+    font-weight: 100;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#home {
+    background: url($background_image_url) no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover; 
+    display: block;
+    color: #ffffffc9;
+}
+
+#quote {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 1900;
+    font-size: 2.2em;
+    position:absolute;
+    margin-top: 500px;
+    margin-left: 190px;
+}
+
+#saidby {
+    font-size: 1.05em;
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 990px;
+}
+
+#about {
+    background-color: #51748dd7;
+}
+
+.column {
+    text-align: center;
+    height: 64%;
+    border-radius: 8px;
+    padding: 25px 0px;
+    
+    h2 {
+        font-weight: 800;
+    }
+    h5 {
+        font-weight: 400;
+        padding: 25px 0px 10px 0px; 
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+.applogo {
+    width:20%;
+    height:32%;
+    padding: 20px 0px 10px;
+    margin-top: 15px;
+}
+
+.mslogo {
+    width:20%;
+    height:27%;
+    padding: 20px 0px 10px;
+    margin-top: 12px;
+}
+
+.uiuclogo {
+    width:45%;
+    height:45%;
+    padding-top: 30px;
+}
+
+.one {
+    background-color: rgba(255, 255, 255, 0.836);
+    border-style: solid;
+    border-color: rgba(14, 18, 54, 0.932);;
+    border-width: 0.1cm;
+    width: 35%;
+    margin: 0px 40px;
+}
+
+.two {
+    background-color: rgba(9, 46, 94, 0.932);
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.918);
+    border-width: 7px;
+    color: white;
+    width: 30%;
+    padding: 30px 40px;
+
+    p {
+        padding-top: 7px;
+    }
+}
+
+#interests {
+    background-color: #3d0b20;
+}
+
+.carousel {
+    position: relative;
+}
+  
+.slides {
+    display: none;
+    width: 100%;
+}
+  
+#prevSlide, #nextSlide {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    user-select: none;
+    border-radius: 0 3px 3px 0;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    transition: 0.2s ease;
+}
+  
+#nextSlide {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+#prevSlide:hover, #nextSlide:hover {
+    background-color: rgba(0, 0, 0, 0.637);
+}
+
+
+nav {
+    position: fixed;
+    width:100%;
+    top: 0;
+    background-color: #0000008e;
+    transition: 0.2s; 
+    font-size: x-large;
+    padding: 30px 10px;
+    z-index: 9999;
+}
+
+nav .navbar-div {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+}
+
+nav .navbar-div ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+nav .navbar-div ul li a {
+    display: inline-block;
+    font-weight: 100;
+    @include clickable;
+}
+
+nav .navbar-div ul li.active {
+    background-color: rgba(156, 156, 156, 0.377);
+}
+
+nav .navbar-div ul li a:hover {
+    background-color: rgba(156, 156, 156, 0.377);
+    padding: 20px 35px;
+}
+
+#miscellaneous {
+    background-color: rgb(100, 97, 139);
+}
+
+#imgl1, #imgl2, #imgl3, #imgl4 {
+    font-size: 100px;
+    color:rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    margin-top: 100px; 
+    margin-left: 200px;
+    left: 0;
+    top: 0;
+    width: 70%; 
+    height: 70%; 
+    background-color: rgba(58, 58, 58, 0.767); 
+}
+
+#modal2 {
+    background-color: rgb(41, 38, 53);
+    width: 62%; 
+    height: 30%; 
+    margin-top: 250px; 
+    margin-left: 250px;
+}
+
+#vid {
+    width: 100%;
+}
+
+#logos {
+    padding-top: 40px;
+    padding-left: 105px;
+}
+  
+#close1, #close2 {
+    color: #ffffff;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+  
+#close1:hover,
+#close1:focus, #close2:hover,
+#close2:focus {
+    color: rgb(22, 6, 6);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@keyframes btn-movement {
+    0% {margin: 10px;background-color:rgba(27, 17, 44, 0.336);}
+    40% {margin: -200px;} 
+    50% {background-color: rgba(127, 105, 131, 0.7);}
+    70% {margin: 10px;background-color:rgba(27, 17, 44, 0.336);}
+}
+
+@mixin animation-mixin {
+    animation-name: btn-movement;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+#viewvideo, #viewsocials {
+    background-color:rgba(27, 17, 44, 0.336);
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    margin: 10px;
+    font-size: 24px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    @include clickable;
+    @include animation-mixin;
+}
+
+#viewvideo:hover, #viewsocials:hover {
+    background-color: rgba(127, 105, 131, 0.7);
+    cursor: pointer;
+}
