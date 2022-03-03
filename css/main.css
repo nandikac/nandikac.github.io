@@ -5,11 +5,12 @@ html, body, ul {
     padding: 0;
     border: 0;
     vertical-align: baseline;
-    font-family: 'Roboto', sans-serif;
     font-weight: 100;
     background: #f2f2f2;
     font-family: "Roboto", Helvetica, sans-serif;
   }
+
+
 
   img {
     width: 100%; /* need to overwrite inline dimensions */
@@ -102,6 +103,18 @@ html, body, ul {
     filter: blur(2px);
   }
 
+  #pr-listing {
+    background: rgba(255, 255, 255, 0);
+    opacity: 1;
+    font-size: 1.7em;
+    color: rgba(36, 36, 36, 0.815);
+    
+  }
+  #pr-listing:hover {
+    color: rgba(255, 255, 255, 0.877);
+    background: rgba(97, 97, 97, 0.233);
+  }
+
   .nav {
     background: #000000a1;
     position: fixed;
@@ -131,6 +144,7 @@ html, body, ul {
   .nav li:hover {
     background: rgba(46, 46, 46, 0.712);
     transition: .2s;
+    
   }
   
   /* This rule is applied to the link <a> tag. It lets you turn off the link underline and set the link text color. */
@@ -181,6 +195,53 @@ html, body, ul {
     font-family: "Merriweather";
     font-weight: 900;
   }
+
+  .home-listing {
+    position: relative;
+    text-align: center;
+  }
+
+  .home-image {
+    padding-top: 60px; 
+    opacity: 0.7;
+  }
+
+  .typewriter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 38%;
+    left: 24%;
+    z-index: 0.999;
+  }
+
+.typewriter h1 {
+  color: rgb(0, 0, 0);
+  font-family: 'Merriweather', Courier, monospace;
+  font-size: 3.8em;
+  font-weight: 900;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid rgb(44, 44, 44); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret 0.5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: rgb(44, 44, 44) }
+  50% { border-color: transparent }
+}
 
   
   /* for touch screen devices */
