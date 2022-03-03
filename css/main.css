@@ -85,7 +85,7 @@ html, body, ul {
     top: 0;
     left: 0;
     opacity: 0;
-    transition: opacity .5s;
+    transition: opacity .3s;
     background: rgba(54, 54, 54, 0.699);
     color: white;
     
@@ -107,7 +107,8 @@ html, body, ul {
     background: rgba(255, 255, 255, 0);
     opacity: 1;
     font-size: 1.7em;
-    color: rgba(36, 36, 36, 0.815);
+    font-weight: 300;
+    color: rgba(54, 54, 54, 0.815);
     
   }
   #pr-listing:hover {
@@ -285,6 +286,32 @@ html, body, ul {
     align-items: center;
     justify-content: center;
     position: absolute;
+}
+
+.about-section {
+  width: 40%; 
+  position: absolute; 
+  text-align: center; 
+  top:30%;
+  left:30%
+}
+
+.about-section h2 {
+  color:rgb(255, 255, 255); 
+  font-size:2.3em; 
+  font-weight: 900;
+  display: inline;
+  vertical-align: top;
+  line-height: 60px;
+}
+
+.about-section p {
+  color:white; 
+  font-size: larger; 
+  font-weight: 300;
+  display: inline;
+  vertical-align: top;
+  line-height: 50px;
 }
   
   /* for touch screen devices */
