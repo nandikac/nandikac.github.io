@@ -266,6 +266,26 @@ html, body, ul {
   66% {opacity:0;}
   100% {opacity:1;}
 }
+
+.about-page {
+  margin: -5px;
+  padding-top: 12%;
+  padding-bottom: 55%;
+  background: rgba(180, 129, 133, 0.795);
+  display: flex;
+    align-items: center;
+  position: relative;
+}
+
+.about-page img {
+  width:20%;
+  border: solid 2pt white;
+  border-radius: 5pt;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
   
   /* for touch screen devices */
   @media (hover: none) { 
