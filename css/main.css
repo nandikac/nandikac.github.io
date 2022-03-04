@@ -43,11 +43,10 @@ html, body, ul {
 
   .pr-row {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    grid-gap: 1em;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     top: 100px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   /* hover styles */
@@ -106,14 +105,17 @@ html, body, ul {
   #pr-listing {
     background: rgba(255, 255, 255, 0);
     opacity: 1;
-    font-size: 1.7em;
-    font-weight: 300;
+    font-size: 1.4em;
+    font-weight: 100;
     color: rgba(54, 54, 54, 0.815);
+    transition: .3s;
+    
     
   }
   #pr-listing:hover {
-    color: rgba(255, 255, 255, 0.877);
-    background: rgba(97, 97, 97, 0.233);
+    color: rgb(0, 0, 0);
+    background: rgba(255, 247, 219, 0.397);
+    
   }
 
   .nav {
@@ -175,24 +177,37 @@ html, body, ul {
   .pr-page-title {
     font-weight: 700;
     font-size: 0.8em;
-    padding-top: 70px;
     text-align: center;
     font-family: "Merriweather";
   }
 
 
   .pr-obj {
-    padding: 50px;
-    padding-top: 20px;
+    padding-left:5%;
+    padding-right:5%;
   }
 
-  
+  .pr-prompt {
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+
+  .pr-prompt ul, ol {
+    padding-left: 2%;
+  }
+
+  .pr-prompt li {
+    line-height: 25px;
+  }
+
 
   .pr-obj p, li {
     font-weight: 300;
   }
 
-  .pr-obj h3 {
+  .pr-obj h3,  .pr-prompt h3 {
     font-family: "Merriweather";
     font-weight: 900;
   }
