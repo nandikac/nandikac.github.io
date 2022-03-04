@@ -288,7 +288,7 @@ html, body, ul {
   margin: -5px;
   padding-top: 12%;
   padding-bottom: 55%;
-  background: rgba(201, 92, 101, 0.877);
+  background: #54ab78ea;
   display: flex;
     align-items: center;
   position: relative;
@@ -296,7 +296,7 @@ html, body, ul {
 
 .about-page img {
   width:20%;
-  border: solid 2pt white;
+  border: solid 3pt white;
   border-radius: 5pt;
   display: flex;
     align-items: center;
