@@ -113,8 +113,8 @@ html, body, ul {
     
   }
   #pr-listing:hover {
-    color: rgb(0, 0, 0);
-    background: rgba(255, 247, 219, 0.397);
+    background: rgba(75, 75, 75, 0.473);
+    color: white;
     
   }
 
@@ -185,6 +185,7 @@ html, body, ul {
   .pr-obj {
     padding-left:5%;
     padding-right:5%;
+    padding-bottom: 10%;
   }
 
   .pr-prompt {
@@ -287,7 +288,7 @@ html, body, ul {
   margin: -5px;
   padding-top: 12%;
   padding-bottom: 55%;
-  background: rgba(180, 129, 133, 0.795);
+  background: rgba(150, 102, 106, 0.651);
   display: flex;
     align-items: center;
   position: relative;
