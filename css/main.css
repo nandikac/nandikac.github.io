@@ -8,6 +8,7 @@ html, body, ul {
     font-weight: 100;
     background: #f2f2f2;
     font-family: "Roboto", Helvetica, sans-serif;
+    color: rgba(46, 46, 46, 0.849);
   }
 
 
@@ -22,7 +23,7 @@ html, body, ul {
     font-weight: 700;
     text-align: center;
     font-size: 3em;
-    color:rgb(34, 34, 34);
+    color:rgba(46, 46, 46, 0.849);
   }
   h6 {
       margin: 0;
@@ -30,7 +31,7 @@ html, body, ul {
     font-weight: 300;
     text-align: center;
     font-size: 1em;
-    color:rgb(114, 114, 114);
+    color:rgb(75, 75, 75);
   }
   .grid-row {
     display: grid;
@@ -53,12 +54,13 @@ html, body, ul {
   .journalistic-listing {
     position: relative;
     margin: 10px 10px 20px 10px;
+    
   }
   
   .journalistic-image {
     line-height: 0;
     overflow: hidden;
-    /* border: solid 1px rgba(160, 160, 160, 0.3); */
+    border: solid rgba(70, 70, 70, 0.74) 1pt;
   }
   
   .journalistic-image img {
@@ -88,6 +90,7 @@ html, body, ul {
     background: rgba(54, 54, 54, 0.699);
     color: white;
     
+    
     /* position the text in t’ middle*/
     display: flex;
     align-items: center;
@@ -103,13 +106,13 @@ html, body, ul {
   }
 
   #pr-listing {
-    background: rgba(255, 255, 255, 0);
+    background: #c6e9b93f;
     opacity: 1;
-    font-size: 1.4em;
-    font-weight: 100;
+    font-size: 1.5em;
+    font-weight: 300;
     color: rgba(54, 54, 54, 0.815);
     transition: .3s;
-    
+    border: solid rgba(70, 70, 70, 0.74) 1pt;
     
   }
   #pr-listing:hover {
@@ -233,7 +236,7 @@ html, body, ul {
   }
 
 .typewriter h1 {
-  color: rgb(0, 0, 0);
+  color: rgba(37, 37, 37, 0.897);
   font-family: 'Merriweather', Courier, monospace;
   font-size: 3.8em;
   font-weight: 900;
@@ -255,7 +258,7 @@ html, body, ul {
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-  from, to { border-color: rgb(44, 44, 44) }
+  from, to { border-color: rgba(32, 32, 32, 0.849); }
   50% { border-color: transparent }
 }
 
@@ -274,7 +277,7 @@ html, body, ul {
   font-size: 1.5em;
     font-family: Roboto;
   font-weight: 400;
-  color: rgba(66, 66, 66, 0.897);
+  color: rgba(46, 46, 46, 0.849);
 }
 
 
@@ -284,11 +287,14 @@ html, body, ul {
   100% {opacity:1;}
 }
 
+/* About color */
 .about-page {
   margin: -5px;
   padding-top: 12%;
   padding-bottom: 55%;
-  background: #54ab78ea;
+  /* background: #498561c0; */
+  /* background: #77bc94; */
+  background: #cdeec1e1;
   display: flex;
     align-items: center;
   position: relative;
@@ -296,7 +302,7 @@ html, body, ul {
 
 .about-page img {
   width:20%;
-  border: solid 3pt white;
+  border: solid 3pt rgba(46, 46, 46, 0.849);
   border-radius: 5pt;
   display: flex;
     align-items: center;
@@ -309,11 +315,11 @@ html, body, ul {
   position: absolute; 
   text-align: center; 
   top:30%;
-  left:30%
+  left:30%;
+  color: rgba(46, 46, 46, 0.849);
 }
 
 .about-section h2 {
-  color:rgb(255, 255, 255); 
   font-size:2.3em; 
   font-weight: 900;
   display: inline;
@@ -322,7 +328,6 @@ html, body, ul {
 }
 
 .about-section p {
-  color:white; 
   font-size: larger; 
   font-weight: 300;
   display: inline;
