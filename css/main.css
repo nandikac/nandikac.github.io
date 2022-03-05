@@ -312,26 +312,26 @@ html, body, ul {
 }
 
 .about-page .img1 {
-  top:20%;left:73%;
+  top:15%;left:73%;
 }
 
 .about-page .img2 {
-  top:20%;left:7%;
+  top:15%;left:7%;
 }
 
 .about-page .img3 {
-  top:47%;left:73%;
+  top:40%;left:73%;
 }
 
 .about-page .img4 {
-  top:65%;left:7%;
+  top:58%;left:7%;
 }
 
 .about-section {
   width: 40%; 
   position: absolute; 
   text-align: center; 
-  top:30%;
+  top:23%;
   left:30%;
   color: rgba(46, 46, 46, 0.849);
 }
@@ -382,20 +382,21 @@ html, body, ul {
     }
 
     .typewriter {
-      left: 20%;
+      top: 45%;
+      left: 13%;
     }
 
     .about-prompt{
-      top: 53%;
-    left: 31%;
+      top: 62%;
+      left: 33%;
     }
 
     .typewriter h1 {
-      font-size: 5vw;
+      font-size: 6vw;
     }
 
     .about-prompt h6 {
-      font-size: 2.7vw;
+      font-size: 2.5vw;
     }
 
     .about-page img {
@@ -403,20 +404,20 @@ html, body, ul {
     }
 
     .about-page .img1 {
-      top:220%;left:55%;
+      top:215%;left:55%;
       margin-bottom: 20%;
     }
 
     .about-page .img2 {
-      top:15%;left:10%;
+      top:130%;left:10%;
     }
 
     .about-page .img3 {
-      top:15%;left:55%;
+      top:130%;left:55%;
     }
 
     .about-page .img4 {
-      top:220%;left:10%;
+      top:215%;left:10%;
       margin-bottom: 20%;
     }
     
@@ -424,7 +425,7 @@ html, body, ul {
       width: 90%; 
       position: absolute; 
       text-align: center; 
-      top:100%;
+      top:10%;
       left:5%;
     }
 
