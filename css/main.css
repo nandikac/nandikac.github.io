@@ -387,7 +387,7 @@ html, body, ul {
     }
 
     .about-prompt{
-      top: 57%;
+      top: 62%;
       left: 33%;
     }
 
@@ -404,20 +404,20 @@ html, body, ul {
     }
 
     .about-page .img1 {
-      top:262%;left:55%;
+      top:220%;left:55%;
       margin-bottom: 20%;
     }
 
     .about-page .img2 {
-      top:177%;left:10%;
+      top:140%;left:10%;
     }
 
     .about-page .img3 {
-      top:177%;left:55%;
+      top:140%;left:55%;
     }
 
     .about-page .img4 {
-      top:262%;left:10%;
+      top:220%;left:10%;
       margin-bottom: 20%;
     }
     
