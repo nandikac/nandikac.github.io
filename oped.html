@@ -12,18 +12,19 @@
         <title>Op-Ed</title>
     </head>
     <body>
-      <div class="nav">
-        <ul>
-            <a class="brand">NANDIKA CHATTERJEE</a>
-          <li><a href="index.html" class="nav-link">Home</a></li>
-          <li><a href="journalistic.html" class="nav-link">Journalistic Writing Samples</a></li>
-          <li><a href="publicrelations.html" class="nav-link">Public Relations Writing Samples</a></li>
-          <li><a href="specscopy.html" class="nav-link">Specs Copy</a></li>
-          <li><a href="resume.html" class="nav-link">Resume</a></li>
-        </ul>
+      <div class="topnav" id="myTopnav">
+        <a class="nav-link" id="brand">NANDIKA CHATTERJEE</a>
+        <a href="index.html" >Home</a>
+        <a href="journalistic.html" >Journalistic Writing Samples</a>
+        <a href="publicrelations.html" class="nav-link">Public Relations Writing Samples</a>
+        <a href="specscopy.html" >Specs Copy</a>
+        <a href="resume.html" >Resume</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
       </div>
 
-          <div class="pr-page-title" style="padding-top:80px;"><h2 >Op-Ed</h2></div>
+          <div class="pr-page-title"><h2 >Op-Ed</h2></div>
 
           <div class="pr-prompt"><h3 >Prompt:</h3> <p style="font-size: 1.1em; font-weight: 300;">Chancellor Robert Jones wants to publish an op-ed on the importance of continued masking in classrooms for the Chicago Tribune. <br>Write a 500-700 word op-ed that you would submit on his behalf.</p></div>
 
@@ -45,5 +46,19 @@
         </p><p style="margin-bottom: 20px; ">On a more personal note, the Jones family, ourselves have been reflecting on our Spring break plans this year. The frustrations and difficulties regarding these troubling times, while not the same for everyone, are completely understandable. The Omicron variant has demanded a level of due diligence from all community members. Going back to the classroom mask mandate, we want our classes to be a source of solely higher learning and a memorable college experience, nothing else. Now more than ever is the time for us to work together and move forward with a positive attitude, as opposed to a positive test result. </p>
 
     </div>
-    </body>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+  </script>
+    
+
+
+
+  </body>
 </html>

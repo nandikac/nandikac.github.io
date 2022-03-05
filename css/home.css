@@ -2,3 +2,42 @@ body  {
     background-image: url("assets/home.png");
     background-color: #cccccc;
 }
+
+.nav {
+    background: #000000a1;
+    position: fixed;
+    width:100%;
+    top:0;
+    z-index: 9999;
+    transition: 0.2s; 
+    
+    height: 60px; /* set same as height & line-height below */
+  }
+  
+  /* This rule centers the nav items verticaly in the bar with the height and line height properties. Spacing between the nav items is controlled by setting right and left padding.  */
+  .nav ul {
+    background: #00000000;
+    position:relative;
+  }
+  .nav li {
+    background: #00000000;
+    display: inline-block;
+    list-style: none;
+    height: 60px; /* should be the same as line-height */
+    line-height: 60px; /* should be the same as height */
+    padding: 0 30px; /* "0" sets top and bottom padding to none */
+  } 
+  
+  /* :hover allows you change the background color of the nav items when you mouse over them. Play around with the transition value to change the speed of the hover transition. */
+  .nav li:hover, a:active {
+    background: rgba(46, 46, 46, 0.712);
+    transition: .2s;
+    
+  }
+
+  
+  /* This rule is applied to the link <a> tag. It lets you turn off the link underline and set the link text color. */
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+  } 

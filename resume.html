@@ -9,20 +9,35 @@
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:wght@100&display=swap" rel="stylesheet">   
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-        <title>Resume</title>
+        <title>Specs Copy</title>
     </head>
     <body style="background-color: #d6eccde1;">
-        <div class="nav">
-            <ul>
-                <a class="brand">NANDIKA CHATTERJEE</a>
-              <li><a href="index.html" class="nav-link">Home</a></li>
-              <li><a href="journalistic.html" class="nav-link">Journalistic Writing Samples</a></li>
-              <li><a href="publicrelations.html" class="nav-link">Public Relations Writing Samples</a></li>
-              <li><a href="specscopy.html" class="nav-link">Specs Copy</a></li>
-              <li><a href="resume.html" class="nav-link">Resume</a></li>
-            </ul>
-          </div>
+      <div class="topnav" id="myTopnav">
+        <a class="nav-link" id="brand">NANDIKA CHATTERJEE</a>
+        <a href="index.html" >Home</a>
+        <a href="journalistic.html" >Journalistic Writing Samples</a>
+        <a href="publicrelations.html" >Public Relations Writing Samples</a>
+        <a href="specscopy.html" >Specs Copy</a>
+        <a href="resume.html" class="nav-link">Resume</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <div class="resume-format"><iframe src="assets/resume.pdf" width="100%" height="1000px"></div>
+          
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+      
 
-          <div style="display: block; margin-left: auto; margin-right: auto; padding-top: 60px; width: 60%;"><iframe src="assets/resume.pdf" width="100%" height="1000px"></div>
-        </body>
+
+
+    </body>
 </html>

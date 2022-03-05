@@ -12,18 +12,19 @@
         <title>Media Pitch</title>
     </head>
     <body>
-      <div class="nav">
-        <ul>
-            <a class="brand">NANDIKA CHATTERJEE</a>
-          <li><a href="index.html" class="nav-link">Home</a></li>
-          <li><a href="journalistic.html" class="nav-link">Journalistic Writing Samples</a></li>
-          <li><a href="publicrelations.html" class="nav-link">Public Relations Writing Samples</a></li>
-          <li><a href="specscopy.html" class="nav-link">Specs Copy</a></li>
-          <li><a href="resume.html" class="nav-link">Resume</a></li>
-        </ul>
+      <div class="topnav" id="myTopnav">
+        <a class="nav-link" id="brand">NANDIKA CHATTERJEE</a>
+        <a href="index.html" >Home</a>
+        <a href="journalistic.html" >Journalistic Writing Samples</a>
+        <a href="publicrelations.html" class="nav-link">Public Relations Writing Samples</a>
+        <a href="specscopy.html" >Specs Copy</a>
+        <a href="resume.html" >Resume</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
       </div>
 
-          <div class="pr-page-title" style="padding-top:80px;"><h2 >Media Pitch </h2></div>
+          <div class="pr-page-title"><h2 >Media Pitch </h2></div>
 
           <div class="pr-prompt"><h3 >Prompt:</h3> <ul>
             <li>The University of Illinois Urbana-Champaign is hosting a new Paralympic racing camp for kids this summer.</li>
@@ -52,5 +53,19 @@
           DRES Communications Coordinator </p>
 
     </div>
-    </body>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+  </script>
+    
+
+
+
+  </body>
 </html>

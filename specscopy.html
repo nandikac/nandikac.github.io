@@ -12,17 +12,32 @@
         <title>Specs Copy</title>
     </head>
     <body style="background-color: #d6eccde1;">
-        <div class="nav">
-            <ul>
-                <a class="brand">NANDIKA CHATTERJEE</a>
-              <li><a href="index.html" class="nav-link">Home</a></li>
-              <li><a href="journalistic.html" class="nav-link">Journalistic Writing Samples</a></li>
-              <li><a href="publicrelations.html" class="nav-link">Public Relations Writing Samples</a></li>
-              <li><a href="specscopy.html" class="nav-link">Specs Copy</a></li>
-              <li><a href="resume.html" class="nav-link">Resume</a></li>
-            </ul>
-          </div>
+      <div class="topnav" id="myTopnav">
+        <a class="nav-link" id="brand">NANDIKA CHATTERJEE</a>
+        <a href="index.html" >Home</a>
+        <a href="journalistic.html" >Journalistic Writing Samples</a>
+        <a href="publicrelations.html" >Public Relations Writing Samples</a>
+        <a href="specscopy.html" class="nav-link">Specs Copy</a>
+        <a href="resume.html" >Resume</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <div style="display: block; margin-left: auto; margin-right: auto; padding-top: 60px;width: 60%;"><h3 style="text-align:center; padding-top: 60px; font-family: Roboto; font-weight:300; font-size: 1.8em;">Coming soon :)</h3></div>
+          
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+      
 
-          <h3 style="text-align:center; padding-top: 80px; font-family: Roboto; font-weight:100; font-size: 1.8em;">Coming soon :)</h3>
-        </body>
+
+
+    </body>
 </html>

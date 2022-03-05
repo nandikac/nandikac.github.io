@@ -12,18 +12,19 @@
         <title>Messaging</title>
     </head>
     <body>
-      <div class="nav">
-        <ul>
-            <a class="brand">NANDIKA CHATTERJEE</a>
-          <li><a href="index.html" class="nav-link">Home</a></li>
-          <li><a href="journalistic.html" class="nav-link">Journalistic Writing Samples</a></li>
-          <li><a href="publicrelations.html" class="nav-link">Public Relations Writing Samples</a></li>
-          <li><a href="specscopy.html" class="nav-link">Specs Copy</a></li>
-          <li><a href="resume.html" class="nav-link">Resume</a></li>
-        </ul>
+      <div class="topnav" id="myTopnav">
+        <a class="nav-link" id="brand">NANDIKA CHATTERJEE</a>
+        <a href="index.html" >Home</a>
+        <a href="journalistic.html" >Journalistic Writing Samples</a>
+        <a href="publicrelations.html" class="nav-link">Public Relations Writing Samples</a>
+        <a href="specscopy.html" >Specs Copy</a>
+        <a href="resume.html" >Resume</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
       </div>
 
-      <div class="pr-page-title"><h2 style="padding-top: 80px;">Messaging</h2>
+      <div class="pr-page-title"><h2>Messaging</h2>
         <h2 style="font-size: 1.7em; font-weight: 700;padding-top: 10px;"><u>Situation:</u> The CDC is trying to get teenagers who are eligible to get the COVID-19 booster. </h2></div>
         
         <div class="pr-prompt"><h3 >Prompt:</h3> <ol>
@@ -41,6 +42,19 @@
         <h3 style="font-weight: 400;"><u>Control based Tweet:</u></h3>
         <p>It is the duty of the CDC to do everything in our power to inform and enforce health protocols and community guidelines by which everyone is encouraged to abide. We have been dedicated to researching the best and most medically advanced ways to combat COVID-19. Our experts have continued testing the most effective ways for youth, especially, to stay safe during this time. All arrows point to getting the booster shot if you are eligible! </p>
       </div>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+      
+
+
 
     </body>
 </html>
