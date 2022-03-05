@@ -231,8 +231,8 @@ html, body, ul {
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 38%;
-    left: 24%;
+    top: 35%;
+    left: 26%;
     z-index: 0.999;
   }
 
@@ -269,8 +269,8 @@ html, body, ul {
     justify-content: center;
     position: absolute;
     
-    top: 50%;
-    left: 40%;
+    top: 46%;
+    left: 38%;
     animation: fadeIn linear 6s;
 }
 
